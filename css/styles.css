@@ -11,9 +11,8 @@ p {
 }
 
 h1 {
-  margin-top: 0;
-  font-family: 'Sacramento', cursive;
-  font-size: 35px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
   color: #4CAF50;
   /* Green */
 }
@@ -34,9 +33,9 @@ h3 {
 
 /*******************************CLASS SELECTORS*******************************/
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #D9DD6B;
   position: relative;
-  padding: 100px;
+  padding: 80px;
 }
 
 .other-pages {
@@ -44,6 +43,12 @@ h3 {
   right: 50px;
   top: 30px;
 }
+
+.Logo {
+  position: absolute;
+  top: 30px;
+  right: 1050px;
+  }
 
 .About-us {
   background-color: #E4F9F5;
@@ -60,7 +65,7 @@ h3 {
   margin-top: 30px;
 }
 
-.Stories {
+.Library {
   background-color: #E4F9F5;
   border-radius: 8px;
   color: #4CAF50;
@@ -90,30 +95,33 @@ h3 {
   margin-top: 30px;
 }
 
-.bottom-cloud {
+.kids-down {
   position: absolute;
   left: 80px;
+  width: 150px;
 }
 
-.top-cloud {
+.kids-up{
   position: absolute;
   margin-left: 500px;
   margin-top: 20px;
+  width: 150px;
 }
 
-.h1 {
+.construct {
   display: inline-block;
-  margin-top: 70px;
-  font-size: 50px;
+  margin-top: 80px;
 }
 
-.two-educators {
+.short-stories {
+  font-family: 'Noto Serif Display', serif;
   color: #4CAF50;
   /* Green */
-  font-size: 1.5rem;
+  font-size: 2.8rem;
+  margin-top: 0px;
 }
 
-.library {
+.ladder {
   width: 400px;
 }
 
@@ -121,8 +129,8 @@ h3 {
   margin: 80px 0;
 }
 
-.tree {
-  height: 150px;
+.Hello {
+  height: 180px;
 }
 
 .intro {
@@ -132,7 +140,7 @@ h3 {
 
 .skill-row {
   margin: 50px auto 100px auto;
-  width: 60%;
+  width: 50%;
   text-align: left;
   line-height: 2;
 }
@@ -143,7 +151,7 @@ h3 {
   margin-right: 25px;
 }
 
-.parents {
+.Ask {
   height: 180px;
   float: right;
   margin-left: 25px;
@@ -188,7 +196,7 @@ h3 {
 }
 
 .page-bottom {
-  background-color: #66BFBF;
+  background-color: #D9DD6B;
   position: relative;
   height: 100px;
   margin-top: 60px;
@@ -207,9 +215,10 @@ h3 {
 }
 
 .copyrights {
-  color: #EAF6F6;
+  color: #4CAF50;
   position: relative;
   font-size: 12px;
+  font-weight: bolder;
 }
 
 .footer-links {
