@@ -1,1 +1,1 @@
-# Social-Stories
+# Short-Social-Stories
